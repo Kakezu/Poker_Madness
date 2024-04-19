@@ -54,18 +54,11 @@ h2 {
 .opponent-flex {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 5px;
   margin: 100px 0;
 }
 .card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 60px;
-  height: 76px;
-  background-color: white;
-  border-radius: 8px;
-  font-size: 30px;
+  width: 70px;
 }
 
 .play-btn-flex {
