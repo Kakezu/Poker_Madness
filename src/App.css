@@ -51,14 +51,14 @@ h2 {
   margin: 5px;
 }
 
-.opponent-flex {
+.deck-flex {
   display: flex;
   justify-content: center;
-  gap: 5px;
   margin: 100px 0;
 }
 .card {
   width: 70px;
+  margin: 0 2px
 }
 
 .play-btn-flex {
@@ -78,5 +78,22 @@ h2 {
 }
 
 .play-btn:hover {
+  background-color: #ccd2d3;
+}
+
+.done-btn-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.done-btn {
+  background-color: #938C96;
+  width: 130px;
+  padding: 15px 0;
+  border-radius: 10px;
+  border: 0;
+  font-size: 24px;
+}
+.done-btn:hover {
   background-color: #ccd2d3;
 }
